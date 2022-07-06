@@ -14,18 +14,19 @@ header img{
   height: 400px;
 }
 
-/*links inside the sidenav */
+/*sidenav links */
 #mySidenav a {
-  position: fixed; /* Position them relative to the browser window */
-  left: -20%; /* Position them outside of the screen */
-  transition: 0.3s; /* Add transition on hover */
-  padding: 15px; /* 15px padding */
+  position: fixed; 
+  left: -20%; 
+  transition: 0.3s; 
+  padding: 15px; 
   padding-right: 2%;
-  width: 20%; /* Set a specific width */
-  text-decoration: none; /* Remove underline */
-  font-size: 15px; /* Increase font size */
-  color: white; /* White text color */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  width: 20%; 
+  text-decoration: none; 
+  text-align: center;
+  font-size: 15px; 
+  color: white;
+  border-radius: 0 5px 5px 0;
   }
   
   #mySidenav a:hover {
